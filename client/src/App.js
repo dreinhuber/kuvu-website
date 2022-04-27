@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   header {
-    background-color: #2d0320;
+    background-color: #250C2A;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -39,11 +39,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   footer {
-    background-color: #2d0320;
+    background-color: #250C2A;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 5em;
+    position: relative;
+    bottom: -20vh;
   }
 
   .nav-item {
